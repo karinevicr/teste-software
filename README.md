@@ -2,7 +2,6 @@
 
 Este projeto consiste na implementação de testes unitários para um `Controller` e um `Repository` que está sendo ultilizando no repositorio do projeto do grupo, os testes estão utilizando Jest, uma ferramenta para auxiliar na automação dos testes. Abaixo estão os detalhes dos testes e resultados.
 
-
 ## Casos de Teste
 
 ### 1. Teste do Repository (`DeficienciaRepository`)
@@ -35,12 +34,10 @@ Verificar o comportamento das operações CRUD (Create, Read, Delete) no reposit
 - Todos os métodos devem se comportar conforme o esperado, retornando os valores corretos e interagindo adequadamente com o banco de dados mockado.
 
 #### Resultado Obtido
-- Todos os testes passaram com sucesso, validando o comportamento do repositório.
+- Todos os testes passaram com sucesso, validando o comportamento do repositório e indicando que tudo está funcionando.
 
 #### Pós-condição
 - Os mocks do banco de dados são limpos após cada teste.
-
-
 
 ### 2. Teste do Controller (`DeficienciaController`)
 
@@ -77,7 +74,6 @@ Validar o comportamento do controller ao lidar com requisições relacionadas a 
 #### Pós-condição
 - Os mocks do serviço são limpos após cada teste.
 
-
 ## Automatização dos Testes
 
 Os testes foram automatizados utilizando a ferramenta **Jest**. O código dos testes está organizado em dois arquivos:
@@ -87,7 +83,7 @@ Os testes foram automatizados utilizando a ferramenta **Jest**. O código dos te
 
 Todos os testes estão funcionais e cobrem os cenários descritos nos casos de teste.
 
-
+Para mostrar o funcionamento dos teste foi criado um video demonstando e testando eles no repositorio do grupo que pode ser encontrado aqui: https://youtu.be/T_5s8r_eDx4
 
 ## Registro dos Resultados
 
